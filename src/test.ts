@@ -1,3 +1,3 @@
-export function test() {
-  return JSON.stringify({test: true});
+export function test(value: boolean) {
+  return JSON.stringify({test: value});
 }
